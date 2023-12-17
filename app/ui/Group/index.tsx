@@ -21,7 +21,7 @@ const Group = () => {
       alert('The given group name cannot have whitespaces');
       return;
     }
-    let db = fireproof(group);
+    let db = fireproof(`secret-santa-${group}`);
     console.log('The new database is created', db);
     let result = await db.put({ limit: grouplimit, date: Date.now() });
     console.log('The document has been added');

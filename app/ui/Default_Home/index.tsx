@@ -19,10 +19,23 @@ const Default = () => {
                 Instructions
               </h3>
               <ul className="mt-4 list-inside list-disc text-center text-lg text-white">
-                <li>Main Instruction Heading</li>
-                <li>Instruction-1</li>
-                <li>Instruction-2</li>
-                <li>Instruction-3</li>
+                <li>
+                  Create a group by entering the group name and limit on the
+                  number of members that can join
+                </li>
+                <li>
+                  When you refresh the page, the group will be visible on the
+                  sidebar
+                </li>
+                <li>
+                  Click on the group name, enter your details and share the
+                  website link with your friends
+                </li>
+                <li>
+                  Once all the members join the group, names will be assigned to
+                  each member
+                </li>
+                <li>Happy Holidays!</li>
               </ul>
             </div>
           </div>

@@ -6,9 +6,9 @@ export default function useDatabasenames(): string[] {
   useEffect(() => {
     const updateData = () => {
       const arr: string[] = Object.keys(localStorage)
-        .filter((key) => key.includes('fp.0.14.meta.'))
+        .filter((key) => key.includes('fp.0.14.meta.secret-santa'))
         .map((key) => {
-          const temp = key.slice(13);
+          const temp = key.slice(26);
           const temparr = temp.split('.');
           return temparr[0];
         });
